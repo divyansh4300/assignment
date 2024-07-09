@@ -70,6 +70,7 @@ def calculate_longest_path(graph, topo_order):
 
 
 def longest_path(graph: list) -> int:
+    max_path_length = 0
     n = len(graph)
     
     for start_node in range(n):
